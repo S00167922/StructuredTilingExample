@@ -126,11 +126,11 @@ namespace Tiler
 
 
 
+            Song startVoice = Content.Load<Song>(@"Winter Game Sounds/ballsofsteel");
+            Texture2D txCoin = Content.Load<Texture2D>(@"Winter Game Sprites/Insert Coin");
 
+          
 
-            //Loads the startup screen.
-           startUpScreen = new SplashScreen(Vector2.Zero, Content.Load<Texture2D>(@"Winter Game Sprites/Insert Coin"),
-                                             Content.Load<Song>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Enter);
 
 
 
@@ -139,11 +139,11 @@ namespace Tiler
             if (timer <= 17 )
             {
                 //Loads the loading screen and proceeds to play the startup music.
-                loadingScreen = new SplashScreen(Vector2.Zero, Content.Load<Texture2D>(@"Winter Game Sprites/Loading Screen"),
-                                                Content.Load<Song>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Space);
+                Song startSong = Content.Load<Song>(@"Winter Game Sounds/ps_1");
+                Texture2D txLoad = Content.Load<Texture2D>(@"Winter Game Sprites/Loading Screen");
 
-                
-                
+
+
 
                 //Set volume.
                 MediaPlayer.Volume = 0.5f;
