@@ -8,6 +8,7 @@ using Tiler;
 using Tiling;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Audio;
+using TileBasedPlayer20172018;
 
 namespace Tiler
 {
@@ -128,8 +129,8 @@ namespace Tiler
 
 
             //Loads the startup screen.
-            startUpScreen = new SplashScreen(Vector2.Zero, Content.Load<Texture2D>(@"Winter Game Sprites/Insert Coin"),
-                                             Content.Load<SoundEffect>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Enter);
+           startUpScreen = new SplashScreen(Vector2.Zero, Content.Load<Texture2D>(@"Winter Game Sprites/Insert Coin"),
+                                             Content.Load<Song>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Enter);
 
 
 
@@ -139,7 +140,7 @@ namespace Tiler
             {
                 //Loads the loading screen and proceeds to play the startup music.
                 loadingScreen = new SplashScreen(Vector2.Zero, Content.Load<Texture2D>(@"Winter Game Sprites/Loading Screen"),
-                                                 Content.Load<SoundEffect>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Space);
+                                                Content.Load<Song>(@"Winter Game Sound Effects Wave/PS1Startup"), Keys.Space);
 
                 
                 
@@ -166,6 +167,9 @@ namespace Tiler
              
             // Create font for the timer.
             timerFont = Content.Load<SpriteFont>("timerFont");
+
+            Texture2D tx = Content.Load<Texture2D>(@"Tiles/ tank tiles 64 x 64");
+            Services.AddService(tx);
 
 
             // Tile References to be drawn on the Map corresponding to the entries in the defined 
@@ -320,8 +324,6 @@ namespace Tiler
             base.Draw(gameTime);
         }
 
-        private class SplashScreen
-        {
-        }
+       
     }
 }

@@ -69,12 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Tiles\tank tiles 64 x 64.png" />
-    <Content Include="Content\Winter Game Sound Effects Wave\Alert.wav" />
-    <Content Include="Content\Winter Game Sound Effects Wave\BallsOfSteel.wav" />
-    <Content Include="Content\Winter Game Sound Effects Wave\Noooo.wav" />
-    <Content Include="Content\Winter Game Sound Effects Wave\PS1Startup.wav" />
-    <Content Include="Content\Winter Game Sound Effects Wave\Steel.wav" />
-    <Content Include="Content\Winter Game Sound Effects Wave\WTFBoom.wav" />
+    <Content Include="Content\Winter Game Sound Effects Wave\Alert.mp3" />
+    <Content Include="Content\Winter Game Sound Effects Wave\BallsOfSteel.mp3" />
+    <Content Include="Content\Winter Game Sound Effects Wave\Noooo.mp3" />
+    <Content Include="Content\Winter Game Sound Effects Wave\PS1Startup.mp3" />
+    <Content Include="Content\Winter Game Sound Effects Wave\Steel.mp3" />
+    <Content Include="Content\Winter Game Sound Effects Wave\WTFBoom.mp3" />
     <Content Include="Content\Winter Game Sprites\Insert Coin.jpg" />
     <Content Include="Content\Winter Game Sprites\Loading Screen.jpg" />
     <Content Include="Content\Winter Game Sprites\Projectile.png" />

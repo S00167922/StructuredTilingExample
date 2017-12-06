@@ -37,42 +37,6 @@
 /processorParam:TextureFormat=Color
 /build:Tiles/collider.png
 
-#begin Winter Game Sound Effects Wave/Alert.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/Alert.wav
-
-#begin Winter Game Sound Effects Wave/BallsOfSteel.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/BallsOfSteel.wav
-
-#begin Winter Game Sound Effects Wave/Noooo.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/Noooo.wav
-
-#begin Winter Game Sound Effects Wave/PS1Startup.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/PS1Startup.wav
-
-#begin Winter Game Sound Effects Wave/Steel.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/Steel.wav
-
-#begin Winter Game Sound Effects Wave/WTFBoom.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Winter Game Sound Effects Wave/WTFBoom.wav
-
 #begin timerFont.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -115,4 +79,34 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Winter Game Sprites/Loading Screen.jpg
+
+#begin Winter Game Sounds/ballsofsteel.swf.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Winter Game Sounds/ballsofsteel.swf.mp3
+
+#begin Winter Game Sounds/metalgearsolid.swf.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Winter Game Sounds/metalgearsolid.swf.mp3
+
+#begin Winter Game Sounds/nooo.swf.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Winter Game Sounds/nooo.swf.mp3
+
+#begin Winter Game Sounds/ps_1.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Winter Game Sounds/ps_1.mp3
+
+#begin Winter Game Sounds/wtf_boom.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Winter Game Sounds/wtf_boom.mp3
 

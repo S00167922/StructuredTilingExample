@@ -186,13 +186,13 @@ namespace AnimatedSprite
             // Could do Texture2D as a static class with dictionary of textures
             // if different textures needed
             Texture2D SpriteSheet = Game.Services.GetService<Texture2D>();
-            
+
             if (visible)
             {
                 spriteBatch.Begin(SpriteSortMode.Immediate,
                         BlendState.AlphaBlend, null, null, null, null, Camera.CurrentCameraTranslation);
                 spriteBatch.Draw(SpriteSheet,
-                    PixelPosition + origin, 
+                    PixelPosition + origin,
                     sourceRectangle,
                     Color.White, angleOfRotation, origin,
                     Scale, SpriteEffects.None, spriteDepth);
