@@ -166,7 +166,7 @@ namespace Tiler
 
              
             // Create font for the timer.
-            //timerFont = Content.Load<SpriteFont>("timerFont");
+            timerFont = Content.Load<SpriteFont>("timerFont");
 
            
            
