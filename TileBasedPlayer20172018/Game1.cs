@@ -128,8 +128,8 @@ namespace Tiler
 
             Song startVoice = Content.Load<Song>(@"Winter Game Sounds/ballsofsteel");
             Texture2D txCoin = Content.Load<Texture2D>(@"Winter Game Sprites/Insert Coin");
+            Services.AddService(txCoin);
 
-          
 
 
 
@@ -141,7 +141,7 @@ namespace Tiler
                 //Loads the loading screen and proceeds to play the startup music.
                 Song startSong = Content.Load<Song>(@"Winter Game Sounds/ps_1");
                 Texture2D txLoad = Content.Load<Texture2D>(@"Winter Game Sprites/Loading Screen");
-
+                Services.AddService(txLoad);
 
 
 
@@ -166,10 +166,10 @@ namespace Tiler
 
              
             // Create font for the timer.
-            timerFont = Content.Load<SpriteFont>("timerFont");
+            //timerFont = Content.Load<SpriteFont>("timerFont");
 
-            Texture2D tx = Content.Load<Texture2D>(@"Tiles/ tank tiles 64 x 64");
-            Services.AddService(tx);
+           
+           
 
 
             // Tile References to be drawn on the Map corresponding to the entries in the defined 
